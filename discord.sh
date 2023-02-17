@@ -1,8 +1,8 @@
 #!/bin/sh
 BOTNAME=Julius
-THUMBNAIL_URL="https://cdn-icons-png.flaticon.com/512/5261/5261867.png"
-AVATAR_URL="https://e7.pngegg.com/pngimages/951/800/png-clipart-debian-linux-installation-fedora-operating-systems-online-text-logo-thumbnail.png"
-WEBHOOK="https://discord.com/api/webhooks/1075777330758307870/bLXwE34Rh8eaEpwW7UjVcm9LDKgOWkW8m1Vu-6XD4UwwMMgvGcbOe2rmv0bVPSYK5eUB"
+THUMBNAIL_URL="https://norsiide.be/images/github/ssh-login/thumbnail.png"
+AVATAR_URL="https://norsiide.be/images/github/ssh-login/avatar.png"
+WEBHOOK="WEBHOOK DISOCRD"
 DATE=$(date +"%d-%m-%Y-%H:%M:%S")
 server="VPS"
 TMPFILE=$(mktemp)

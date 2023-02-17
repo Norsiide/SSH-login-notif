@@ -1,8 +1,8 @@
 #!/bin/sh
 
-# Your USERID or Channel ID to display alert and key, we recommend you create new bot with @BotFather on Telegram
-USERID="1900865012"
-KEY="5070604324:AAFpmh_KAipATvi_dtScLqNQMIcvaxvpi5w"
+# Votre USERID ou Channel ID pour afficher l'alerte et la clé, nous vous recommandons de créer un nouveau bot avec @BotFather sur Telegram
+USERID="USERID"
+KEY="id:token"
 
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 DATE="$(date "+%d %b %Y %H:%M")"
