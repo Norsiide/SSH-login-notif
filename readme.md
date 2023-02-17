@@ -3,7 +3,7 @@
 # SSH login notifications
 
 [![WebSite](https://img.shields.io/website?down_message=Offline&label=WebSite&up_message=Online&url=https%3A%2F%2Fnorsiide.be)](https://norsiide.be)
-[![Discord](https://img.shields.io/discord/1044976597402394664?color=5865f2&label=Discord&logo=discord&logoColor=fff&style=flat-square)](https://azuriom.com/discord)
+[![Discord](https://img.shields.io/discord/1044976597402394664?color=5865f2&label=Discord&logo=discord&logoColor=fff&style=flat-square)](https://discord.gg/S5ZZufrY4v)
 
 **SSH login Notifications** est un petit script qui vous permet d'etre avertie lors d'une connexion SSH
 
