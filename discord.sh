@@ -14,7 +14,9 @@ TMPFILE=$(mktemp)
     curl -s "https://ipapi.co/${IP}/json/" > $TMPFILE
 
     getCurrentTimestamp() { date -u --iso-8601=seconds; };
-
+    
+    SRV_HOSTNAME=$(hostname -f)
+    SRV_IP=$(hostname -I | awk '{print $1}')
     #Sends The Webhook	
         curl -i --silent \
         -H "Accept: application/json" \
@@ -29,7 +31,7 @@ TMPFILE=$(mktemp)
                 "thumbnail": { "url": "'"$THUMBNAIL_URL"'" },
                 "author": { "name": "'"$BOTNAME"'", "icon_url": "'"$AVATAR_URL"'" },
                 "footer": { "icon_url": "'"$AVATAR_URL"'", "text": "'"$BOTNAME"'" },
-                "description": "**Details server**\n \\👤 Utilisateur: '\`$(whoami)\`' \n \\👤 server type: '\`$server\`' \n \\🖥️ HostName: '\`$(hostname)\`' \n \\🕐 Time: '\`$DATE\`' \n\n **Connexion IP**\n \\📡 IP: '\`${IP}\`' \n📡 Whois: https://norsiide.be/whois/ip?whois='${IP}'",
+                "description": "**Details server**\n \\👤 Utilisateur: '\`$(whoami)\`' \n \\👤 server type: '\`$server\`' \n \\🖥️ HostName: '\`$SRV_HOSTNAME\`' \n \\🕐 Time: '\`$DATE\`' \n\n **Connexion IP**\n \\📡 IP: '\`${IP}\`' \n📡 Whois: https://norsiide.be/whois/ip?whois='${IP}'",
                 "timestamp": "'$(getCurrentTimestamp)'"
             }]
         }' $WEBHOOK > /dev/null
