@@ -30,7 +30,7 @@ cd /opt/
 (3) Maintenant on peut ajouter le repos
  
 ```
-git clone https://github.com/Norsiide/SSH-login-notif.git
+git clone https://github.com/Norsiide/ssh-login.git
 ```
 
 (4) On activer les scripts
