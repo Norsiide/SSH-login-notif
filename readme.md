@@ -19,7 +19,7 @@
 (1) Installer le packet curl linux
 
 ```
-apt-get install curl 
+apt install curl 
 ```
 
 (2) Il faux maintenant ce deplacer dans le dossier 
@@ -27,22 +27,27 @@ apt-get install curl
 ```
 cd /opt/
 ```
-(3) Maintenant on peut ajouter le repos
+(3) Maintenant on peut installer la commande git
+ 
+```
+apt install git
+```
+(4) Maintenant on peut ajouter le repos
  
 ```
 git clone https://github.com/Norsiide/ssh-login.git
 ```
 
-(4) On activer les scripts
+(5) On activer les scripts
  
 ```
 sh /opt/ssh-login/deploy.sh
 ```
-(4) Config
+(6) Config
  
 ```Avant de tester le script il faux donner les accés au  discord.sh & telegram.sh```
 
-(5) Maintenant nous pouvons tester le scripts
+(7) Maintenant nous pouvons tester le scripts
  
 ```
 sh /etc/profile.d/ssh-alert.sh
