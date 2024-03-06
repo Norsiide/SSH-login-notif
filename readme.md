@@ -39,7 +39,7 @@ sh /opt/ssh-login/deploy.sh
 ```
 (6) Config
 * Discord
-![Screenshot](https://github.com/Norsiide/install-openmediavault/blob/main/img/webhook.png)
+![Screenshot](https://github.com/Norsiide/ssh-login/blob/main/img/webhook.png)
 La on va ajouter le webhook de discord
 
 * Telegram
