@@ -44,9 +44,9 @@ La on va ajouter le webhook de discord
 ![Screenshot](https://github.com/Norsiide/ssh-login/blob/main/img/webhook.png)
 
 * Telegram
-La on va ajouter le bot 
-    - USERID="USERID"
-    - TOKEN="id:token" 
+La on va ajouter le bot [BotFather](https://telegram.me/BotFather)
+    - USERID="USERID" = votre id utilisateur
+    - TOKEN="id:token" token de création du bot pour le salon
     ![Screenshot](https://github.com/Norsiide/ssh-login/blob/main/img/telegram.png)
 
 
