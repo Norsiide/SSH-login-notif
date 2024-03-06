@@ -16,21 +16,15 @@
 
 # Installations du system
 
-(1) Installer le packet curl linux
+(1) Installer les dependance
 
 ```
-apt install curl 
+apt install curl && git
 ```
-
-(2) Il faux maintenant ce deplacer dans le dossier 
+(2) Puis on va dans le dossier ( opt )
  
 ```
 cd /opt/
-```
-(3) Maintenant on peut installer la commande git
- 
-```
-apt install git
 ```
 (4) Maintenant on peut ajouter le repos
  
@@ -44,8 +38,12 @@ git clone https://github.com/Norsiide/ssh-login.git
 sh /opt/ssh-login/deploy.sh
 ```
 (6) Config
- 
-```Avant de tester le script il faux donner les accés au  discord.sh & telegram.sh```
+* Discord
+![Screenshot](https://github.com/Norsiide/install-openmediavault/blob/main/img/webhook.png)
+La on va ajouter le webhook de discord
+
+* Telegram
+
 
 (7) Maintenant nous pouvons tester le scripts
  

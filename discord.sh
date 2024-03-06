@@ -2,9 +2,9 @@
 BOTNAME=Julius
 THUMBNAIL_URL="https://cdn-icons-png.flaticon.com/512/5064/5064910.png"
 AVATAR_URL="https://w7.pngwing.com/pngs/668/952/png-transparent-debian-arch-linux-computer-icons-desktop-linux-spiral-logo-magenta.png"
-WEBHOOK="DISCORD WEEBHOOK"
+WEBHOOK="DISCORD WEEBHOOK" # lien du webhook
 DATE=$(date +"%d-%m-%Y-%H:%M:%S")
-server="VPS"
+server="VPS" # Nom du serveur
 TMPFILE=$(mktemp)
 
 # Embed Webhook Configuration
