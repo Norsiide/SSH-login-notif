@@ -2,9 +2,9 @@
 
 # Votre USERID ou Channel ID pour afficher l'alerte et la clé, nous vous recommandons de créer un nouveau bot avec @BotFather sur Telegram
 USERID="USERID"
-KEY="id:token"
+TOKEN="id:token"
 
-URL="https://api.telegram.org/bot$KEY/sendMessage"
+URL="https://api.telegram.org/bot$token/sendMessage"
 DATE="$(date "+%d %b %Y %H:%M")"
 
 if [ -n "$SSH_CLIENT" ]; then

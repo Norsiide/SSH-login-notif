@@ -39,10 +39,15 @@ sh /opt/ssh-login/deploy.sh
 ```
 (6) Config
 * Discord
-![Screenshot](https://github.com/Norsiide/ssh-login/blob/main/img/webhook.png)
 La on va ajouter le webhook de discord
+    - WEBHOOK="DISCORD WEEBHOOK" par WEBHOOK="https://discordapp.com/api/webhooks/1214859100572090388/l4vnc5pezh6gEDuE4HuX-4P8KZOPClvE5fL_M6Dj9BnDmXIJfm579Pgj3KPjjC-0Mlx3"
+![Screenshot](https://github.com/Norsiide/ssh-login/blob/main/img/webhook.png)
 
 * Telegram
+La on va ajouter le bot 
+    - USERID="USERID"
+    - TOKEN="id:token" 
+    ![Screenshot](https://github.com/Norsiide/ssh-login/blob/main/img/telegram.png)
 
 
 (7) Maintenant nous pouvons tester le scripts
