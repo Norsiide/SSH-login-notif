@@ -2,7 +2,7 @@
 BOTNAME=Julius
 THUMBNAIL_URL="https://cdn-icons-png.flaticon.com/512/5064/5064910.png"
 AVATAR_URL="https://w7.pngwing.com/pngs/668/952/png-transparent-debian-arch-linux-computer-icons-desktop-linux-spiral-logo-magenta.png"
-WEBHOOK="WEBHOOK" # lien du webhook
+WEBHOOK="DISCORD WEEBHOOK" # lien du webhook
 DATE=$(date +"%d-%m-%Y-%H:%M:%S")
 server="VPS" # Nom du serveur
 USERID="<@!ton-user-id>"
